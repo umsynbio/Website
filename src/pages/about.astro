@@ -1,0 +1,162 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+    <div class="container mx-auto px-4 py-8">
+        <!-- centered -->
+        <div class="text-center">
+            <p class="text-5xl font-semibold">
+                We are...
+                <span id="rollingText" class="block text-blue-600"></span>
+            </p>
+        </div>
+
+        <script is:inline>
+            document.addEventListener("DOMContentLoaded", function () {
+                const words = [
+                    { text: "Biologists", color: "text-blue-600" },
+                    { text: "Chemists", color: "text-green-600" },
+                    { text: "Scientists", color: "text-purple-600" },
+                    { text: "Engineers", color: "text-red-600" },
+                    { text: "MSBT!", color: "text-yellow-600" },
+                ];
+
+                let index = 0;
+                const textElement = document.getElementById("rollingText");
+
+                function updateText() {
+                    textElement.classList.remove(...textElement.classList);
+                    textElement.classList.add(
+                        "block",
+                        "transition-opacity",
+                        "duration-1000",
+                        words[index].color,
+                    );
+                    textElement.style.opacity = 0;
+
+                    setTimeout(() => {
+                        textElement.textContent = words[index].text;
+                        textElement.style.opacity = 1;
+                    }, 100);
+
+                    index++;
+                    if (index < words.length) {
+                        setTimeout(updateText, 2000);
+                    }
+                }
+
+                updateText();
+            });
+        </script>
+
+        <div class="grid md:grid-cols-2 gap-6 my-8">
+            <img
+                class="rounded-lg"
+                src="/images/about/comp_modeling_team.jpg"
+                alt="Computational modeling team smiling."
+            />
+            <div>
+                <div class="text-2xl font-bold">Who We Are</div>
+                <div class="text-gray-700 text-xl">
+                    The Michigan Synthetic Biology Team provides students the
+                    opportunity to gain hands-on experience conducting research,
+                    running a lab, engineering biological systems, and more.
+                    Each year, we compete in the iGEM competition in Paris.
+                </div>
+            </div>
+        </div>
+
+        <div class="my-8">
+            <div class="text-2xl font-semibold">What is Synthetic Biology?</div>
+            <div class="text-gray-700 text-xl">
+                Synthetic Biology combines biology and engineering to design,
+                construct, and test biological devices and systems. Combining
+                these two disciplines allows us to better understand life and
+                use that understanding to benefit society. Synthetic Biology is
+                distinct from Genetic Engineering in that the latter only alters
+                existing genes, whereas the former utilizes existing, modified,
+                and man-made genes to make life perform useful functions not
+                normally found in nature. Through synthetic biology, it may be
+                possible to solve some of the world's most challenging problems
+                such as energy shortage, environmental pollution, and disease.
+                However, we must be wary of potential safety and ethical issues
+                along the way.
+            </div>
+        </div>
+
+        <div class="my-8">
+            <div class="text-2xl font-semibold text-right">What is iGEM?</div>
+            <div class="text-gray-700 text-xl text-right">
+                iGEM is an international undergraduate synthetic biology
+                competition. In 2015, iGEM consisted of 259 teams and 2700
+                participants from all over the world. Every year, teams
+                research, design, construct, and test a novel biological system.
+                Students have at their disposal bits of DNA from the iGEM
+                Registry of Standard Biological parts to help aid them in
+                building their biological “machine”. In addition, students are
+                encouraged to build their own parts and develop new techniques
+                to make life easier to engineer. Teams also help to increase
+                awareness for synthetic biology through public outreach and
+                analyze safety concerns as a part of the project design process.
+                Projects are wide ranging and are divided into the following
+                categories: Environment, Food and Nutrition, Energy,
+                Foundational Advance, Health and Medicine, Information
+                Processing, Manufacturing, Software Tools, and New Applications.
+                Visit the iGem website for more information.
+            </div>
+        </div>
+
+        <div class="my-8">
+            <h2 class="text-xl font-semibold">Who Can Join?</h2>
+
+            <!-- Right aligned -->
+            <p class="text-gray-700 text-xl">
+                Any undergraduate student with an interest in synthetic biology
+                and biological engineering is welcome to join! Students will
+                become acquainted with the theory and techniques during weekly
+                meetings from February to the end of winter semester. We then
+                transition to working on the year's project through the spring,
+                summer, and following fall semester. The iGEM competition takes
+                place in late October. To join, applications start in the middle
+                of January!
+            </p>
+
+            <a href="/why-join">Join MSBT!</a>
+        </div>
+
+        <div class="container mx-auto px-4 py-8 text-center">
+            <h2 class="text-xl font-semibold">Awards</h2>
+            <ul class="list-disc ml-5">
+                <li>Gold Medal, iGEM 2022</li>
+                <li>Gold Medal, Genetic Engineering Competition 2023</li>
+                <li>
+                    <a
+                        class="text-blue-600 underline"
+                        href="https://competition.igem.org/sponsorships/impact-grant"
+                        >iGEM Impact Grant Recipient 2023</a
+                    >
+                </li>
+            </ul>
+        </div>
+
+        <div class="container mx-auto px-4 py-8 text-center">
+            <h2 class="text-xl font-semibold">2023 Project</h2>
+            <h3 class="text-lg font-semibold">
+                Point-of-Care rs773902 Genetic Testing
+            </h3>
+            <p class="text-gray-700">
+                We are developing an accessible test for a genetic mutation
+                affecting blood clotting therapies, using DNA amplification and
+                fluorescent markers.
+            </p>
+        </div>
+
+        <div class="container text-center">
+            <a
+                class="mt-4 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
+                href="/project">2023 Project Details</a
+            >
+        </div>
+    </div>
+</BaseLayout>

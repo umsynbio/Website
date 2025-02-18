@@ -1,0 +1,114 @@
+---
+import ProjectCard from "../components/past_projects/past_project_card.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const projects = [
+    {
+        year: "2022",
+        linkHref: "https://2022.igem.wiki/michigan/",
+        linkText:
+            "Amplify: Encapsulin-Facilitated Antimicrobial Peptide Biosynthesis",
+    },
+    {
+        year: "2021",
+        linkHref: "https://2021.igem.org/Team:Michigan",
+        linkText:
+            "Investigating the Versatility of Encapsulin Protein Nanocompartments for Drug Delivery",
+    },
+    {
+        year: "2019",
+        linkHref: "https://2019.igem.org/Team:Michigan/Team",
+        linkText: "Got Milk? Reducing Food Waste with AHL Detection",
+    },
+    {
+        year: "2018",
+        linkHref: "https://2018.igem.org/Team:Michigan",
+        linkText: "CRISPR Testing Model: Competitive Binding",
+    },
+    {
+        year: "2017",
+        linkHref: "https://2017.igem.org/Team:Michigan",
+        linkText:
+            "Thermolyze: A Temperature Controlled Kill-Switch for Containment of Pathogenic Bacteria in Research Labs",
+    },
+    {
+        year: "2016",
+        linkHref: "https://2016.igem.org/Team:Michigan",
+        linkText: "Aptamer-based Protein Detection",
+    },
+    {
+        year: "2015",
+        linkHref: "https://2015.igem.org/Team:Michigan",
+        linkText: "Aptapaper: Detecting Any Protein on Paper Test Strips",
+    },
+    {
+        year: "2014",
+        linkHref: "https://2014.igem.org/Team:Michigan",
+        linkText: "Antibody scFv Secretion in E. coli",
+    },
+    {
+        year: "2013",
+        linkHref: "https://2013.igem.org/Team:Michigan",
+        linkText:
+            "A Completely Unidirectional Biological Transistor Utilizing an Engineered Fim Switch",
+    },
+    {
+        year: "2012",
+        linkHref: "https://2012.igem.org/Team:Michigan",
+        linkText:
+            "Utilizing FimE and HBif Recombinases to Tightly Control a Bi-directional and Inheritable Switch",
+    },
+    {
+        year: "2011",
+        linkHref: "https://2011.igem.org/Team:Michigan",
+        linkText:
+            "DNA Directed Cell Immobilization using Outer Membrane Protein Containing Zinc Finger Domain",
+    },
+    {
+        year: "2010",
+        linkHref: "https://2010.igem.org/Team:Michigan",
+        linkText:
+            "Algae Bioflocculation for Biofuel Production and Bioremediation of Oil Sands Tailings Water",
+    },
+    {
+        year: "2009",
+        linkHref: "https://2009.igem.org/Team:Michigan",
+        linkText: "The Toluene Terminator",
+    },
+    {
+        year: "2008",
+        linkHref: "https://2008.igem.org/Team:Michigan",
+        linkText: "Beauty...and the CLOCK",
+    },
+    {
+        year: "2007",
+        linkHref: "https://2007.igem.org/Michigan",
+        linkText: "Divide-By-Two Circuit and BioBrick Landing Pad",
+    },
+    {
+        year: "2006",
+        linkHref:
+            "https://2006.igem.org/wiki/index.php/University_of_Michigan_2006",
+        linkText: "Plasmene",
+    },
+];
+---
+
+<BaseLayout>
+    <div class="max-w-4xl mx-auto px-6 py-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">Project Archive</h1>
+        <p class="text-2xl text-gray-700 mb-6">
+            Every year, the Michigan Synthetic Biology Team
+            travels to Paris to participate in the International Genetically
+            Engineered Machine (iGEM) competition. Exemplary teams are awarded
+            with gold, silver, or bronze medals based on the competition
+            deliverables established by the iGEM cocmmittee each year. As a part
+            of each submission to the iGEM competition, each team must create a
+            Wiki Page detailing their project. Check out some of MSBT's previous
+            projects and Wiki Pages below!
+        </p>
+
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {projects.map((project) => <ProjectCard {...project} />)}
+        </ul>
+    </div>
+</BaseLayout>

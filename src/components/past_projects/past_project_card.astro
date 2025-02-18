@@ -1,0 +1,23 @@
+---
+import "../../styles/global.css";
+interface Props {
+    year: string;
+    linkText: string;
+    linkHref: string;
+}
+const { year, linkText, linkHref } = Astro.props;
+---
+
+<li class="flex items-center gap-4 p-3">
+    <div class="bg-[#1D334A] text-white text-lg font-bold px-4 py-2 rounded-md">
+      {year}
+    </div>
+    <div class="text-xl text-gray-800">
+      <a
+        class="text-gray-800 hover:text-black font-medium transition-colors duration-200 underline-offset-4 hover:underline"
+        href={linkHref}
+      >
+        {linkText}
+      </a>
+    </div>
+  </li>

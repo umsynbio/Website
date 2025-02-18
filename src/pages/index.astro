@@ -1,16 +1,37 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
 
+import data from "../data/siteConfig.js";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title={data.siteTitle} description={data.siteDescription}>
+	<main class="home" id="homeMain">
+		<style>
+			.home {
+				background-color: #727272;
+				background-image: url("msbt_2024.webp");
+				background-size: cover;
+				background-blend-mode: multiply;
+				background-position: 60% 40%;
+				background-attachment: fixed;
+			}
+		</style>
+		<home>
+			<div class="container mx-auto py-100">
+
+				<div class="text-center pb-10 text-white text-5xl">
+					<h1>Michigan Synthetic Biology Team</h1>
+				</div>
+
+				<div class="text-center pb-10 text-white text-2xl px-20">
+					<p>
+						The Michigan Synthetic Biology Team is an entirely
+						student run research and engineering design team in the
+						biological sciences. We develop and execute our own
+						research projects in the area of synthetic biology.
+					</p>
+				</div>
+			</div>
+		</home>
+	</main>
+</BaseLayout>

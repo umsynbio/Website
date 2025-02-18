@@ -1,0 +1,124 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import data from "../data/siteConfig.js";
+---
+
+<BaseLayout title={data.siteTitle} description={data.siteDescription}>
+    <div>
+        <div class="container mx-auto">
+            <div class="text-stone-600 pl-30 pt-10">
+                <div class="text-xl">Current Project</div>
+                <div class="text-4xl pr-100 pt-10">
+                    Point-of-Care rs773902 Genetic Testing to Inform
+                    Antiplatelet Pharmacotherapy
+                </div>
+                <div class="text-3xl py-5">
+                    <span class="bold text-emerald-600">Stay tuned</span> as we continue
+                    to work on our project!
+                </div>
+            </div>
+
+            <div class="px-30 container pt-10 font-serif">
+                <div class="bg-green-700 py-6 px-7 rounded-3xl text-white">
+                    <div class="text-3xl pb-5">Abstract</div>
+                    <p class="text-2xl">
+                        PAR4 is a platelet receptor that causes blood clotting
+                        when activated. A prevalent point mutation in the gene
+                        for this receptor makes commonly prescribed antiplatelet
+                        therapies less effective; however, alternative,
+                        unaffected options are available. We will develop an
+                        accessible test for this mutation that can be performed
+                        in a physician's office using isothermal DNA
+                        amplification and a fluorescent marker.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="px-30 container pt-10 font-sans text-xl text-stone-600 tracking-wide"
+            >
+                <h2 class="text-3xl pb-5">Background</h2>
+                <p class="py-5 font-serif">
+                    Disparities in thrombosis are a significant contributor to
+                    racial healthcare inequalities in America, with rates of
+                    venous thromboembolism incidence 30-100% higher in African
+                    Americans than whites (Folsom et al.). Evidence shows
+                    differential PAR4 platelet activation by race may contribute
+                    to this disparity (Tourdot et al.). A single nucleotide
+                    polymorphism (SNP) in the PAR4 gene encoding an Ala to Thr
+                    mutation may be responsible for about 50% of racial
+                    differences in PAR4 activation, with 81% of alleles in
+                    persons of European ancestry coding for PAR4-Ala120, while
+                    57% of alleles in persons of African ancestry code for
+                    PAR4-Thr120 (Tourdot et al.). Patients with this mutation
+                    have an increased risk of stroke, with an Odds Ratio of
+                    1.166 for each additional copy of the gene (Whitley et al.).
+                    Further, individuals with at least one allele coding for
+                    PAR4-Thr120 may experience resistance to common treatments,
+                    demonstrating increased clotting relative to PAR4-Ala120
+                    ex-vivo in the presence of aspirin and clopidogrel (Tourdot
+                    et al.). This effect may be abolished by treating platelets
+                    with heparin (Tourdot et al.) or ticagrelor (Whitley et
+                    al.).
+                </p>
+                <p class="py-5 font-serif">
+                    Recent advances in sequencing technology make
+                    genome-directed therapy a viable strategy when indicated in
+                    high resource settings. However, in many places access to
+                    traditional sequencing services may be affected by lack of
+                    access to expensive equipment and the need for a second,
+                    follow-up patient contact (Kaplan-Lewis, E., & Percac-Lima,
+                    S., 2013) to discuss sequencing results and implement
+                    treatment adjustments. Cheap, fast, and accessible
+                    point-of-care testing (POCT) may address these challenges.
+                    Recent work on loop-mediated isothermal DNA amplification
+                    (LAMP) with competitive fluorescent probes for SNP detection
+                    is a promising strategy toward this end, with evidence
+                    demonstrating the system's ability to detect a SNP rapidly
+                    and accurately by producing a fluorescent signal in its
+                    presence (Hyman et al.).
+                </p>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center">
+            <div
+                class="relative h-auto bg-cover bg-center text-white p-10"
+                style="background-image: url('plan_background.jpg'); background-position: 60% 40%;"
+            >
+                <div class="absolute inset-0 bg-black/40"></div>
+                <div class="relative z-10 max-w-5xl mx-auto text-center">
+                    <h2
+                        class="text-3xl font-semibold mb-6 border-b-2 border-gray-300 inline-block"
+                    >
+                        Our Plan
+                    </h2>
+                    <div class="grid grid-cols-3 gap-6 text-lg font-light">
+                        <div class="p-6">
+                            <p>
+                                Design primers for and develop an effective
+                                LAMP-based test with conventionally purified
+                                PAR4 gene sequences and standard fluorescence
+                                detection techniques.
+                            </p>
+                        </div>
+                        <div class="p-6">
+                            <p>
+                                Test and develop methods for extraction of human
+                                DNA compatible with our test and the constraints
+                                of POCT using immortal human cell lines.
+                            </p>
+                        </div>
+                        <div class="p-6">
+                            <p>
+                                Test and develop fluorescence detection
+                                methodology compatible with our test and POCT.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</BaseLayout>
