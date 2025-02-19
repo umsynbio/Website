@@ -1,6 +1,7 @@
 ---
 import "../../styles/global.css";
 import data from "../../data/siteConfig.js";
+import logo from '../../assets/images/logo/msbt_logo_small.png';
 ---
 
 <footer class="rounded-lg shadow-sm bg-gray-900 m-4">
@@ -10,7 +11,7 @@ import data from "../../data/siteConfig.js";
                 href={data.siteUrl}
                 class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
-                <img src="small_msbt_logo.png" class="h-20 object-cover" alt="MSBT Logo" />
+                <img src={logo.src} class="h-20 object-cover" alt="MSBT Logo" />
                 <!--span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">MSBT</span-->
             </a>
             <ul

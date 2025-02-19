@@ -2,14 +2,17 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 import data from "../data/siteConfig.js";
+
+import groupPhoto from '../assets/images/homepage/msbt_2024.webp';
+
 ---
 
 <BaseLayout title={data.siteTitle} description={data.siteDescription}>
-	<main class="home" id="homeMain">
+	<div class="homepage" style={`--bg-image: url(${groupPhoto.src});`}>
 		<style>
-			.home {
+			.homepage{
 				background-color: #727272;
-				background-image: url("msbt_2024.webp");
+				background-image: var(--bg-image);
 				background-size: cover;
 				background-blend-mode: multiply;
 				background-position: 60% 40%;

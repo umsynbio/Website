@@ -2,6 +2,10 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 import data from "../data/siteConfig.js";
+
+import projectPlanBackground from '../assets/images/project/plan_background.jpg';
+
+
 ---
 
 <BaseLayout title={data.siteTitle} description={data.siteDescription}>
@@ -85,7 +89,7 @@ import data from "../data/siteConfig.js";
         <div class="flex justify-center items-center">
             <div
                 class="relative h-auto bg-cover bg-center text-white p-10"
-                style="background-image: url('plan_background.jpg'); background-position: 60% 40%;"
+                style=`background-image: url(${projectPlanBackground.src}); background-position: 60% 40%;`
             >
                 <div class="absolute inset-0 bg-black/40"></div>
                 <div class="relative z-10 max-w-5xl mx-auto text-center">
