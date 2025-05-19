@@ -9,11 +9,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 const navigation = [
-  { name: 'Home', href: `/` },
-  { name: 'About', href: `/#what-we-do` },
+  { name: 'Home', href: `/index.html` },
+  { name: 'About', href: `/index.html/#what-we-do` },
   {
     name: 'Members',
-    href: `/#members`,
+    href: `#`,
     dropdown: [
       { name: 'Current Members', href: `/members` },
       { name: 'Join MSBT', href: `/join` },
@@ -39,7 +39,7 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 justify-between items-center">
           <div className="flex items-center">
-            <Link href={`/`} className="flex-shrink-0 p-2">
+            <Link href={`/index.html`} className="flex-shrink-0 p-2">
               <Image
                 src={`${basePath}/images/msbt_logo.png`}
                 alt="Michigan Synthetic Biology Team logo"

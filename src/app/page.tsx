@@ -194,10 +194,10 @@ export default function Home() {
         <div className="mx-auto max-w-xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-white">Previous Projects</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Want to learn more about our past projects? Check out our <a href="/previous-projects" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">previous projects</a> to see what we&apos;ve accomplished.
+            Want to learn more about our past projects? Check out our <Link href="/previous-projects" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">previous projects</Link> to see what we&apos;ve accomplished.
           </p>
         </div>
-      </div>
+      </div>¸¸¸¸¸
     </div>
   );
 }
