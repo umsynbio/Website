@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function Join() {
   return (
     <div className="bg-gray-900">
@@ -11,7 +13,7 @@ export default function Join() {
         {/* Background image with overlay */}
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/images/join/lab_work.jpg"
+            src={`${basePath}/images/join/lab_work.jpg`}
             alt="Lab work background"
             fill
             className="object-cover object-center"

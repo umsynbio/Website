@@ -2,6 +2,10 @@
 
 import Image from "next/image";
 import { motion } from 'framer-motion';
+import Link from "next/link";
+
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Home() {
   return (
@@ -11,7 +15,7 @@ export default function Home() {
         {/* Background image with overlay */}
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/images/group_home.webp"
+            src={`${basePath}/images/group_home.webp`}
             alt="MSBT Team Photo"
             fill
             className="object-cover object-center"
@@ -41,9 +45,9 @@ export default function Home() {
               >
                 Learn more
               </a>
-              <a href="/join" className="text-sm font-semibold leading-6 text-white hover:text-blue-400 transition-colors duration-300 group">
+              <Link href="/join" className="text-sm font-semibold leading-6 text-white hover:text-blue-400 transition-colors duration-300 group">
                 Join our team <span aria-hidden="true" className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-              </a>
+              </Link>
             </div>
           </motion.div>
         </div>
@@ -63,7 +67,7 @@ export default function Home() {
           </div>
           <div className="relative w-[500px] aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
             <Image
-              src="/images/about/comp_modeling_team.jpg"
+              src={`${basePath}/images/about/comp_modeling_team.jpg`}
               alt="Computational modeling team, made up of five members, smiling."
               fill
               className="object-cover transition-transform duration-300 hover:scale-105"
@@ -87,7 +91,7 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative w-[250px] aspect-[3/4] overflow-hidden rounded-lg shadow-lg">
               <Image
-                src="/images/about/emily_sophia_vertical.jpg"
+                src={`${basePath}/images/about/emily_sophia_vertical.jpg`}
                 alt="The presidents of the Michigan Synthetic Biology Team, Sophia Tesic and Emily Wallace, smiling."
                 fill
                 className="object-cover transition-transform duration-300 hover:scale-105"
@@ -95,7 +99,7 @@ export default function Home() {
             </div>
             <div className="relative w-[250px] aspect-[3/4] overflow-hidden rounded-lg shadow-lg">
               <Image
-                src="/images/about/kimi_kareem.jpg"
+                src={`${basePath}/images/about/kimi_kareem.jpg`}
                 alt="Graduate advisor, Kareem Aboulhosn, and Finance Director, Kimi Lillios, smiling."
                 fill
                 className="object-cover transition-transform duration-300 hover:scale-105"
