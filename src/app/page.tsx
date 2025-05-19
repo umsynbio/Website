@@ -113,7 +113,7 @@ export default function Home() {
             The Intersection of Biology and Engineering
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Synthetic Biology combines biology and engineering to design, construct, and test biological devices and systems. Combining these two disciplines allows us to better understand life and use that understanding to benefit society. Synthetic Biology is distinct from Genetic Engineering in that the latter only alters existing genes, whereas the former utilizes existing, modified, and man-made genes to make life perform useful functions not normally found in nature. Through synthetic biology, it may be possible to solve some of the world's most challenging problems such as energy shortage, environmental pollution, and disease. However, we must be wary of potential safety and ethical issues along the way.
+            Synthetic Biology combines biology and engineering to design, construct, and test biological devices and systems. Combining these two disciplines allows us to better understand life and use that understanding to benefit society. Synthetic Biology is distinct from Genetic Engineering in that the latter only alters existing genes, whereas the former utilizes existing, modified, and man-made genes to make life perform useful functions not normally found in nature. Through synthetic biology, it may be possible to solve some of the world&apos;s most challenging problems such as energy shortage, environmental pollution, and disease. However, we must be wary of potential safety and ethical issues along the way.
           </p>
         </div>
       </div>
@@ -126,7 +126,7 @@ export default function Home() {
             International Competition in Synthetic Biology
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            iGEM is an international undergraduate synthetic biology competition. In 2015, iGEM consisted of 259 teams and 2700 participants from all over the world. Every year, teams research, design, construct, and test a novel biological system. Students have at their disposal bits of DNA from the iGEM Registry of Standard Biological parts to help aid them in building their biological "machine". In addition, students are encouraged to build their own parts and develop new techniques to make life easier to engineer. Teams also help to increase awareness for synthetic biology through public outreach and analyze safety concerns as a part of the project design process. Projects are wide ranging and are divided into the following categories: Environment, Food and Nutrition, Energy, Foundational Advance, Health and Medicine, Information Processing, Manufacturing, Software Tools, and New Applications. Visit the <a href="https://igem.org/" className="text-blue-400" target="_blank" rel="noopener noreferrer">iGem website</a> for more information.
+            iGEM is an international undergraduate synthetic biology competition. In 2015, iGEM consisted of 259 teams and 2700 participants from all over the world. Every year, teams research, design, construct, and test a novel biological system. Students have at their disposal bits of DNA from the iGEM Registry of Standard Biological parts to help aid them in building their biological &quot;machine&quot;. In addition, students are encouraged to build their own parts and develop new techniques to make life easier to engineer. Teams also help to increase awareness for synthetic biology through public outreach and analyze safety concerns as a part of the project design process. Projects are wide ranging and are divided into the following categories: Environment, Food and Nutrition, Energy, Foundational Advance, Health and Medicine, Information Processing, Manufacturing, Software Tools, and New Applications. Visit the <a href="https://igem.org/" className="text-blue-400" target="_blank" rel="noopener noreferrer">iGem website</a> for more information.
           </p>
         </div>
       </div>
@@ -139,7 +139,7 @@ export default function Home() {
             Open to All Undergraduate Students
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Any undergraduate student with an interest in synthetic biology and biological engineering is welcome to join! Students will become acquainted with the theory and techniques during weekly meetings from February to the end of winter semester. We then transition to working on the year's project through the spring, summer, and following fall semester. The iGEM competition takes place in late October. To join, applications start in the middle of January!
+            Any undergraduate student with an interest in synthetic biology and biological engineering is welcome to join! Students will become acquainted with the theory and techniques during weekly meetings from February to the end of winter semester. We then transition to working on the year&apos;s project through the spring, summer, and following fall semester. The iGEM competition takes place in late October. To join, applications start in the middle of January!
           </p>
           <div className="mt-10">
             <a
@@ -168,7 +168,7 @@ export default function Home() {
             <li>Gold Medal, Global Open Genetic Engineering Competition 2023</li>
             <li>2023 Nomination for Best Diagnostics Project</li>
             <li>2024 Silver Medal, Nomination for Best Sustainable Impact</li>
-            <li>"Sustaining Ann Arbor Together" Grant Recipient 2024</li>
+            <li>&quot;Sustaining Ann Arbor Together&quot; Grant Recipient 2024</li>
             <li>Whirlpool Sustainability Grant Recipient 2024</li>
           </ul>
         </div>
@@ -190,7 +190,7 @@ export default function Home() {
         <div className="mx-auto max-w-xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-white">Previous Projects</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Want to learn more about our past projects? Check out our <a href="/previous-projects" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">previous projects</a> to see what we've accomplished.
+            Want to learn more about our past projects? Check out our <a href="/previous-projects" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">previous projects</a> to see what we&apos;ve accomplished.
           </p>
         </div>
       </div>

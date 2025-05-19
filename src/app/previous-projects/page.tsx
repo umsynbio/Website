@@ -120,7 +120,7 @@ export default function PreviousProjects() {
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Project Archive</h1>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Every year, the Michigan Synthetic Biology Team travels to Paris to participate in the International Genetically Engineered Machine (iGEM) competition. Exemplary teams are awarded with gold, silver, or bronze medals based on the competition deliverables established by the iGEM committee each year. As a part of each submission to the iGEM competition, each team must create a Wiki Page detailing their project. Check out some of MSBT's previous projects and Wiki Pages below!
+              Every year, the Michigan Synthetic Biology Team travels to Paris to participate in the International Genetically Engineered Machine (iGEM) competition. Exemplary teams are awarded with gold, silver, or bronze medals based on the competition deliverables established by the iGEM committee each year. As a part of each submission to the iGEM competition, each team must create a Wiki Page detailing their project. Check out some of MSBT&apos;s previous projects and Wiki Pages below!
             </p>
           </div>
         </div>

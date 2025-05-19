@@ -1,8 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Join() {
   return (
@@ -57,7 +56,7 @@ export default function Join() {
 
             <div className="sm:col-span-2">
               <p className="text-lg leading-8 text-gray-300">
-                MSBT holds weekly content and working meetings from February to the end of the winter semester. Continuing through spring, summer, and the following fall semester, we transition to working on the year's project. The iGEM competition takes place in late October!
+                MSBT holds weekly content and working meetings from February to the end of the winter semester. Continuing through spring, summer, and the following fall semester, we transition to working on the year&apos;s project. The iGEM competition takes place in late October!
               </p>
             </div>
           </div>
@@ -130,7 +129,7 @@ export default function Join() {
               </div>
               <div>
                 <p className="text-lg leading-8 text-white">
-                  The main component of our research project takes place in the lab! Our team of undergraduates participate in <span className="font-bold">wet lab research</span> throughout the summer in MSBT's on-campus lab. We do not require new members to have prior experience in the lab as we will provide training to those who need it!
+                  The main component of our research project takes place in the lab! Our team of undergraduates participate in <span className="font-bold">wet lab research</span> throughout the summer in MSBT&apos;s on-campus lab. We do not require new members to have prior experience in the lab as we will provide training to those who need it!
                 </p>
               </div>
             </div>

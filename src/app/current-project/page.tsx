@@ -1,9 +1,9 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Space_Mono, Merriweather } from 'next/font/google';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const spaceMono = Space_Mono({
   weight: ['400', '700'],
   subsets: ['latin'],
@@ -24,7 +24,7 @@ export default function CurrentProject() {
   );
 }
 
-// Original implementation preserved below
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function OriginalCurrentProject() {
   return (
     <div className="bg-gray-900">
@@ -52,7 +52,7 @@ function OriginalCurrentProject() {
             <h2 className={`text-3xl font-bold text-white mb-8 tracking-tight ${merriweather.className}`}>Abstract</h2>
             <div className={`prose prose-lg prose-invert ${merriweather.className}`}>
                 <p className="text-lg leading-relaxed text-gray-300 font-light">
-                    PAR4 is a platelet receptor that causes blood clotting when activated. A prevalent point mutation in the gene for this receptor makes commonly prescribed antiplatelet therapies less effective; however, alternative, unaffected options are available. We will develop an accessible test for this mutation that can be performed in a physician's office using isothermal DNA amplification and a fluorescent marker.
+                    PAR4 is a platelet receptor that causes blood clotting when activated. A prevalent point mutation in the gene for this receptor makes commonly prescribed antiplatelet therapies less effective; however, alternative, unaffected options are available. We will develop an accessible test for this mutation that can be performed in a physician&apos;s office using isothermal DNA amplification and a fluorescent marker.
                 </p>
             </div>
         </div>
@@ -67,7 +67,7 @@ function OriginalCurrentProject() {
               Disparities in thrombosis are a significant contributor to racial healthcare inequalities in America, with rates of venous thromboembolism incidence 30-100% higher in African Americans than whites (Folsom et al.). Evidence shows differential PAR4 platelet activation by race may contribute to this disparity (Tourdot et al.). A single nucleotide polymorphism (SNP) in the PAR4 gene encoding an Ala to Thr mutation may be responsible for about 50% of racial differences in PAR4 activation, with 81% of alleles in persons of European ancestry coding for PAR4-Ala120, while 57% of alleles in persons of African ancestry code for PAR4-Thr120 (Tourdot et al.). Patients with this mutation have an increased risk of stroke, with an Odds Ratio of 1.166 for each additional copy of the gene (Whitley et al.). Further, individuals with at least one allele coding for PAR4-Thr120 may experience resistance to common treatments, demonstrating increased clotting relative to PAR4-Ala120 ex-vivo in the presence of aspirin and clopidogrel (Tourdot et al.). This effect may be abolished by treating platelets with heparin (Tourdot et al.) or ticagrelor (Whitley et al.).
             </p>
             <p>
-              Recent advances in sequencing technology make genome-directed therapy a viable strategy when indicated in high resource settings. However, in many places access to traditional sequencing services may be affected by lack of access to expensive equipment and the need for a second, follow-up patient contact (Kaplan-Lewis, E., & Percac-Lima, S., 2013) to discuss sequencing results and implement treatment adjustments. Cheap, fast, and accessible point-of-care testing (POCT) may address these challenges. Recent work on loop-mediated isothermal DNA amplification (LAMP) with competitive fluorescent probes for SNP detection is a promising strategy toward this end, with evidence demonstrating the system's ability to detect a SNP rapidly and accurately by producing a fluorescent signal in its presence (Hyman et al.).
+              Recent advances in sequencing technology make genome-directed therapy a viable strategy when indicated in high resource settings. However, in many places access to traditional sequencing services may be affected by lack of access to expensive equipment and the need for a second, follow-up patient contact (Kaplan-Lewis, E., & Percac-Lima, S., 2013) to discuss sequencing results and implement treatment adjustments. Cheap, fast, and accessible point-of-care testing (POCT) may address these challenges. Recent work on loop-mediated isothermal DNA amplification (LAMP) with competitive fluorescent probes for SNP detection is a promising strategy toward this end, with evidence demonstrating the system&apos;s ability to detect a SNP rapidly and accurately by producing a fluorescent signal in its presence (Hyman et al.).
             </p>
           </div>
         </div>

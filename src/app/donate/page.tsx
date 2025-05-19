@@ -1,7 +1,5 @@
 'use client';
 
-import { FaUsers, FaFlask, FaGlobe, FaMicroscope, FaTrophy, FaGraduationCap, FaHandshake, FaCheck } from 'react-icons/fa';
-import Link from 'next/link';
 
 export default function DonatePage() {
   return (
@@ -15,7 +13,7 @@ export default function DonatePage() {
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Donate to MSBT</h1>
             <p className="mt-8 text-lg leading-8 text-gray-300">
-              As an undergraduate research organization, our members work hard to acquire independent funding. We rely on the support from people like you to make our unique research experience possible. Donations will directly fund this year's <Link href="/current-project" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">research project</Link>, benefiting our team of {process.env.student_count} undergraduate students.
+              As an undergraduate research organization, our members work hard to acquire independent funding. We rely on the support from people like you to make our unique research experience possible. Donations will directly fund this year&apos;s <a href="/current-project" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">research project</a>, benefiting our team of {process.env.student_count} undergraduate students.
             </p>
           </div>
         </div>
