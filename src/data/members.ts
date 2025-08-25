@@ -17,7 +17,7 @@ export const members: Member[] = [
     minors: ["CS"],
     email: "zeri@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/henry-zhang-umich/",
-    photoUrl: "student_photos/HEZ.png",
+    photoUrl: "student_photos/HEZ.jpg",
   },
   {
     firstName: "Avi",
@@ -26,7 +26,7 @@ export const members: Member[] = [
     email: "avnpatel@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/avi-n-patel",
     instagramHandle: "@avipatel716",
-    photoUrl: "student_photos/AVP.png",
+    photoUrl: "student_photos/AVP.jpg",
   },
   {
     firstName: "Katelin",
@@ -34,7 +34,7 @@ export const members: Member[] = [
     majors: ["Neuroscience", "Women's and Gender Studies"],
     email: "katelinw@umich.edu",
     instagramHandle: "@katelin.wx",
-    photoUrl: "student_photos/KAW.png",
+    photoUrl: "student_photos/KAW.jpg",
   },
   {
     firstName: "Grace",
@@ -44,7 +44,7 @@ export const members: Member[] = [
     email: "gracelom@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/grace-lombardo23",
     instagramHandle: "@grace.lombardo23",
-    photoUrl: "student_photos/GRL.png",
+    photoUrl: "student_photos/GRL.jpg",
   },
   {
     firstName: "Noah",
@@ -54,7 +54,7 @@ export const members: Member[] = [
     email: "noahbl@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/noah-black-b96534225/",
     instagramHandle: "@thatguynoahb",
-    photoUrl: "student_photos/NOB.png",
+    photoUrl: "student_photos/NOB.jpg",
   },
   {
     firstName: "Allison",
@@ -62,14 +62,14 @@ export const members: Member[] = [
     majors: ["Cellular, Molecular Biomedical Science"],
     email: "allisom@umich.edu",
     instagramHandle: "@alliemyers1",
-    photoUrl: "student_photos/ALM.png",
+    photoUrl: "student_photos/ALM.jpg",
   },
   {
     firstName: "Won",
     lastName: "Lee",
     majors: ["Biomedical Engineering"],
     email: "onelee@umich.edu",
-    photoUrl: "student_photos/WOL.png",
+    photoUrl: "student_photos/WOL.jpg",
   },
   {
     firstName: "Harini",
@@ -78,7 +78,7 @@ export const members: Member[] = [
     email: "hram@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/harini-ram-75252522b",
     instagramHandle: "@harini.ram03",
-    photoUrl: "student_photos/HAR.png",
+    photoUrl: "student_photos/HAR.jpg",
   },
   {
     firstName: "Arnav",
@@ -86,7 +86,7 @@ export const members: Member[] = [
     majors: ["MCDB", "Philosophy"],
     email: "arnavrs@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/arnavsharma-",
-    photoUrl: "student_photos/ARNS.png",
+    photoUrl: "student_photos/ARNS.jpg",
   },
   {
     firstName: "Joel",
@@ -94,7 +94,7 @@ export const members: Member[] = [
     majors: ["MCDB"],
     email: "joelgro@umich.edu",
     instagramHandle: "@jt.groves",
-    photoUrl: "student_photos/JOG.png",
+    photoUrl: "student_photos/JOG.jpg",
   },
   {
     firstName: "Temmie",
@@ -103,7 +103,7 @@ export const members: Member[] = [
     email: "temmieyu@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/temmie-yu-a06176261/",
     instagramHandle: "temmieyu",
-    photoUrl: "student_photos/TEY.png",
+    photoUrl: "student_photos/TEY.jpg",
   },
   {
     firstName: "Malik",
@@ -111,7 +111,7 @@ export const members: Member[] = [
     majors: ["Biophysics", "Mathematical Biology"],
     email: "alabbasm@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/malikalabbas/",
-      photoUrl: "student_photos/MAA.png",
+      photoUrl: "student_photos/MAA.jpg",
   },
   {
     firstName: "Isabella",
@@ -121,7 +121,7 @@ export const members: Member[] = [
     email: "Isamar@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/martinezisabella/",
     instagramHandle: "b3llamartin3z",
-    photoUrl: "student_photos/ISM.png",
+    photoUrl: "student_photos/ISM.jpg",
     },
   {
     firstName: "Ana",
@@ -129,7 +129,7 @@ export const members: Member[] = [
     majors: ["Biophysics"],
     email: "anaferre@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/anaferre",
-    photoUrl: "student_photos/ANF.png",
+    photoUrl: "student_photos/ANF.jpg",
   },
   {
     firstName: "Yashwanth",
@@ -139,7 +139,7 @@ export const members: Member[] = [
     email: "ybajji@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/yashwanth-bajji-691940339/",
     instagramHandle: "@yashbajji",
-    photoUrl: "student_photos/YAB.png",
+    photoUrl: "student_photos/YAB.jpg",
   },
   {
     firstName: "Haniya",
@@ -148,7 +148,7 @@ export const members: Member[] = [
     minors: ["Computer Science", "Math"],
     email: "haniya@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/haniyafarooq/",
-    photoUrl: "student_photos/HAF.png",
+    photoUrl: "student_photos/HAF.jpg",
   },
   {
     firstName: "Anna",
@@ -157,7 +157,7 @@ export const members: Member[] = [
     minors: ["Biochemistry"],
     email: "amarendt@umich.edu",
     instagramHandle: "@annaisnt",
-    photoUrl: "student_photos/ANA.png",
+    photoUrl: "student_photos/ANA.jpg",
   },
   {
     firstName: "Aditi",
@@ -167,7 +167,7 @@ export const members: Member[] = [
     email: "aditiga@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/aditi-ganesan-b84634283",
     instagramHandle: "@aditig27",
-    photoUrl: "student_photos/ADG.png",
+    photoUrl: "student_photos/ADG.jpg",
   },
   {
     firstName: "Hania",
@@ -177,7 +177,7 @@ export const members: Member[] = [
     email: "htimek@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/hania-timek-3637092ba/",
     instagramHandle: "@htimek",
-    photoUrl: "student_photos/HAT.png",
+    photoUrl: "student_photos/HAT.jpg",
   },
   {
     firstName: "Leah",
@@ -186,7 +186,7 @@ export const members: Member[] = [
     minors: ["Statistics"],
     email: "ljankosk@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/leah-jankoska-67b488249/",
-    photoUrl: "student_photos/LEJ.png",
+    photoUrl: "student_photos/LEJ.jpg",
   },
   {
     firstName: "Aico",
@@ -195,7 +195,7 @@ export const members: Member[] = [
     email: "aicomiao@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/aicomiao/",
     instagramHandle: "@aicomiao",
-    photoUrl: "student_photos/AIM.png",
+    photoUrl: "student_photos/AIM.jpg",
   },
   {
     firstName: "Aryan",
@@ -205,7 +205,7 @@ export const members: Member[] = [
     linkedinUrl:
       "https://www.linkedin.com/in/aryan-singh-15708b20b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     instagramHandle: "@aryansingh.04",
-    photoUrl: "student_photos/ARS.png",
+    photoUrl: "student_photos/ARS.jpg",
   },
   {
     firstName: "Samirah",
@@ -214,7 +214,7 @@ export const members: Member[] = [
     email: "sbakayok@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/samirahbakayoko/",
     instagramHandle: "@samirahbak",
-    photoUrl: "student_photos/SAB.png",
+    photoUrl: "student_photos/SAB.jpg",
   },
   {
     firstName: "Daniel",
@@ -223,7 +223,7 @@ export const members: Member[] = [
     email: "danielya@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/daniel-yang-3a2817344/",
     instagramHandle: "@danielyang19",
-    photoUrl: "student_photos/DAY.png",
+    photoUrl: "student_photos/DAY.jpg",
   },
   {
     firstName: "Henry",
@@ -232,7 +232,7 @@ export const members: Member[] = [
     email: "HRSaltz@umich.edu",
     linkedinUrl: "http://www.linkedin.com/in/henrysaltzman",
     instagramHandle: "@henrysaltzman1",
-    photoUrl: "student_photos/HES.png",
+    photoUrl: "student_photos/HES.jpg",
     },
   {
     firstName: "Schuyler",
@@ -242,13 +242,13 @@ export const members: Member[] = [
     email: "sbyrn@umich.edu",
     linkedinUrl: "https://www.linkedin.com/in/schuyler-byrn",
     instagramHandle: "@schuyler_byrn",
-    photoUrl: "student_photos/SCB.png",
+    photoUrl: "student_photos/SCB.jpg",
   },
   {
     firstName: "Ethan",
     lastName: "Wang",
     majors: ["Biomedical Engineering"],
     email: "etwang@umich.edu",
-    photoUrl: "student_photos/ETW.png",
+    photoUrl: "student_photos/ETW.jpg",
   },
 ];
