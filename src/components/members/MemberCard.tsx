@@ -18,12 +18,21 @@ export default function MemberCard({ member }: MemberCardProps) {
         ? member.instagramHandle
         : `https://instagram.com/${member.instagramHandle.replace(/^@/, '')}`)
     : undefined;
+    const prefix = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
+    const withBase = (p?: string) => {
+      const fallback = '/images/group_home.webp';
+      const raw = p ?? fallback;
+      if (/^https?:\/\//i.test(raw)) return raw;
+      const withSlash = raw.startsWith('/') ? raw : `/${raw}`;
+      return prefix && withSlash.startsWith(prefix) ? withSlash : `${prefix}${withSlash}`;
+    };
 
   return (
     <div className="overflow-hidden rounded-xl bg-gray-800 ring-1 ring-gray-700">
       <div className="relative h-56 w-full">
         <Image
-          src={photoSrc}
+          src={withBase(photoSrc)}
           alt={fullName}
           fill
           className="object-cover object-center"

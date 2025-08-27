@@ -45,7 +45,7 @@ export default function Home() {
               >
                 Learn more
               </a>
-              <Link href="/join" className="text-sm font-semibold leading-6 text-white hover:text-blue-400 transition-colors duration-300 group">
+              <Link href={`/join/`} className="text-sm font-semibold leading-6 text-white hover:text-blue-400 transition-colors duration-300 group">
                 Join our team <span aria-hidden="true" className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
               </Link>
             </div>
@@ -147,7 +147,7 @@ export default function Home() {
           </p>
           <div className="mt-10">
             <a
-              href="/join"
+              href="/join/"
               className="inline-block rounded-md bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-lg hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all duration-300 hover:shadow-blue-500/25 hover:scale-105"
             >
               Join MSBT!
@@ -197,7 +197,7 @@ export default function Home() {
             Want to learn more about our past projects? Check out our <Link href="/previous-projects" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">previous projects</Link> to see what we&apos;ve accomplished.
           </p>
         </div>
-      </div>¸¸¸¸¸
+      </div>
     </div>
   );
 }
